@@ -2,9 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@server/*": [
-        "modules/server/*"
-      ]
+      "@server/*": ["modules/server/*"],
+      "@common/*": ["modules/common/*"],
+      "@mobile/*": ["modules/mobile/*"]
     }
   }
 }

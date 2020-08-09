@@ -1,11 +1,15 @@
+import Layout from '@common/components/Layout';
+
 const HomePage = ({ products }) => {
   const { list } = products;
 
   return (
     <>
-      {list.map((item) => {
-        return <p>{item.name}</p>;
-      })}
+      <Layout>
+        {list.map((item) => {
+          return <p>{item.name}</p>;
+        })}
+      </Layout>
     </>
   );
 };

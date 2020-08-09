@@ -20,6 +20,10 @@ const theme = createMuiTheme({
       default: '#FAFAFA',
     },
   },
+
+  typography: {
+    fontFamily: 'Inter',
+  },
 });
 
 export default theme;

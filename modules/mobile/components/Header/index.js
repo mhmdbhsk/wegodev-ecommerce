@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
-import { MenuIcon } from '@material-ui/icons';
+import { Menu } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Header = () => {
-  const { classes } = useStyles;
+  const classes = useStyles();
   return (
     <>
       <div className={classes.root}>
@@ -25,7 +25,7 @@ const Header = () => {
               color="inherit"
               aria-label="menu"
             >
-              <MenuIcon />
+              <Menu />
             </IconButton>
 
             <Link href="/">

@@ -1,6 +1,6 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { ServerStylesSheets } from '@material-ui/core/styles';
+import { ServerStyleSheets } from '@material-ui/core/styles';
 import theme from '../src/theme';
 
 export default class MyDocument extends Document {
@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta name="theme-color" content={theme.pallete.primary.main} />
+          <meta name="theme-color" content={theme.palette.primary.main} />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
@@ -24,14 +24,13 @@ export default class MyDocument extends Document {
 }
 
 MyDocument.getInitialProps = async (ctx) => {
-  const sheets = new ServerStylesSheets();
+  const sheets = new ServerStyleSheets();
   const originalRenderPage = ctx.renderPage;
 
-  ctx.renderPage = () => {
+  ctx.renderPage = () =>
     originalRenderPage({
       enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
     });
-  };
 
   const initialProps = await Document.getInitialProps(ctx);
 
