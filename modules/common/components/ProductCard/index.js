@@ -13,6 +13,8 @@ import {
 import PromoLabel from '@common/components/PromoLabel';
 import ProductRating from '@common/components/ProductRating';
 
+import { currencyFormatter } from '@utils/currency';
+
 const useStyles = makeStyles({
   card: {
     maxWidth: 360,
@@ -60,7 +62,7 @@ const ProductCard = ({
                 {title}
               </Typography>
               <Typography variant="overline" className={classes.price}>
-                {price}
+                {currencyFormatter(price)}
               </Typography>
               <ProductRating rating={rating} sold={sold} />
             </Grid>
