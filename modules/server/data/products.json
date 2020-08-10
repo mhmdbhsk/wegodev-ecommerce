@@ -9,9 +9,7 @@
       "quantity": 100,
       "sold": 60,
       "rating": 4.5,
-      "promo": [
-        "FREESHIPPING"
-      ],
+      "promo": ["FREESHIPPING"],
       "seen": 100,
       "weight": "200gr",
       "condition": "NEW",
@@ -25,9 +23,7 @@
       "quantity": 90,
       "sold": 50,
       "rating": 4.7,
-      "promo": [
-        "CASHBACK"
-      ],
+      "promo": ["CASHBACK"],
       "seen": 100,
       "weight": "200gr",
       "condition": "NEW",
@@ -41,9 +37,7 @@
       "quantity": 20,
       "sold": 10,
       "rating": 4.1,
-      "promo": [
-        "FREESHIPPING"
-      ],
+      "promo": ["FREESHIPPING"],
       "seen": 80,
       "weight": "200gr",
       "condition": "NEW",
@@ -57,9 +51,7 @@
       "quantity": 200,
       "sold": 100,
       "rating": 4.2,
-      "promo": [
-        "CASHBACK"
-      ],
+      "promo": ["CASHBACK"],
       "seen": 120,
       "weight": "100gr",
       "condition": "NEW",
@@ -73,10 +65,7 @@
       "quantity": 200,
       "sold": 100,
       "rating": 4.1,
-      "promo": [
-        "FREESHIPPING",
-        "CASHBACK"
-      ],
+      "promo": ["FREESHIPPING", "CASHBACK"],
       "seen": 200,
       "weight": "200gr",
       "condition": "NEW",
@@ -84,7 +73,7 @@
     },
     {
       "id": 6,
-      "name": "Fresh Gingers",
+      "name": "Hot Chili",
       "img": "https://i.ibb.co/JcWSLCj/chili.jpg",
       "price": 25000,
       "quantity": 200,
@@ -104,10 +93,7 @@
       "quantity": 200,
       "sold": 100,
       "rating": 4.6,
-      "promo": [
-        "FREESHIPPING",
-        "CASHBACK"
-      ],
+      "promo": ["FREESHIPPING", "CASHBACK"],
       "seen": 340,
       "weight": "100gr",
       "condition": "NEW",
